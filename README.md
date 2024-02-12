@@ -1,7 +1,7 @@
 # Deep-Learning-Projects
 
 ## Overview
-A collection of Deep Learning projects made with TensorFlow, from `Build Deep Learning Models with TensorFlow` Skill Path from Codecademy. These projects cover the basics of neural networks, ranging from simple linear regression neural networks to convolutional neural networks.
+A collection of Deep Learning projects made with TensorFlow, from `Build Deep Learning Models with TensorFlow` Skill Path from Codecademy. These projects cover the basics of neural networks, ranging from simple linear regression to convolutional neural networks.
 
 ## Projects
 * CNN X-Rays Lung Prediction: A deep learning model to predict lung conditions and abnormalities from chest X-ray images.
