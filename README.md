@@ -3,6 +3,13 @@
 ## Overview
 A collection of Deep Learning projects made with TensorFlow, from `Build Deep Learning Models with TensorFlow` Skill Path from Codecademy. These projects cover the basics of neural networks, ranging from simple linear regression neural networks to convolutional neural networks.
 
+## Projects
+* CNN X-Rays Lung Prediction: A deep learning model to predict lung conditions and abnormalities from chest X-ray images.
+* Forest Cover Type Classifier: A deep learning model classifier to predict the forest cover type based on cartographic variables.
+* Regression with Admissions Data: A deep learning regressor that predicts whether a student will be admitted to a graduate program based on percentage.
+* Patient Survival Predictor: A deep learning model to predict patient survival based on medical data (e.g., whether the patient has diabetes or anemia, he or she smokes, age, etc.)
+* Life Expectancy Predictor: A deep learning model to predict life expectancy based on various socio-economic factors.
+
 ## Requirements
 * Python
 * scikit-learn
