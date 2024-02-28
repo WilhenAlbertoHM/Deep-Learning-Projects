@@ -54,4 +54,4 @@ print(f"Final loss (RMSE): {res_mse}")
 print(f"Final metric (MAE): {res_mae}")
 
 # Save model
-my_model.save("model")
+model.save("model")
