@@ -87,4 +87,8 @@ ax2.legend(["Train", "Validation"], loc="upper left")
 
 # Keep plots from overlapping each other  
 fig.tight_layout()
+plt.savefig("graduate_admissions_regressor.png")
 plt.show()
+
+# Save model
+model.save("model")

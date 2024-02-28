@@ -52,3 +52,6 @@ my_model.fit(features_train_scaled, labels_train, epochs=40, batch_size=1, verbo
 res_mse, res_mae = my_model.evaluate(features_test_scaled, labels_test, verbose=0)
 print(f"Final loss (RMSE): {res_mse}")
 print(f"Final metric (MAE): {res_mae}")
+
+# Save model
+my_model.save("model")

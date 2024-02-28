@@ -77,3 +77,6 @@ y_true = np.argmax(Y_test, axis=1)
 report = classification_report(y_true, y_estimate)
 print(report)
 
+# Save model
+model.save("model")
+
