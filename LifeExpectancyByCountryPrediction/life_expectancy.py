@@ -34,21 +34,21 @@ features_train_scaled = ct.fit_transform(features_train)
 features_test_scaled = ct.transform(features_test)
 
 # Build model
-my_model = Sequential()
+model = Sequential()
 input = InputLayer(input_shape=(features.shape[1],))
-my_model.add(input)
-my_model.add(Dense(units=64, activation="relu"))
-my_model.add(Dense(units=1))
-my_model.summary()
+model.add(input)
+model.add(Dense(units=64, activation="relu"))
+model.add(Dense(units=1))
+model.summary()
 
 # Compile model
 opt = Adam(learning_rate=0.01)
-my_model.compile(optimizer=opt, loss="mse", metrics=["mae"])
+model.compile(optimizer=opt, loss="mse", metrics=["mae"])
 
 # Train model
-my_model.fit(features_train_scaled, labels_train, epochs=40, batch_size=1, verbose=1)
+model.fit(features_train_scaled, labels_train, epochs=40, batch_size=1, verbose=1)
 
 # Evaluate model
-res_mse, res_mae = my_model.evaluate(features_test_scaled, labels_test, verbose=0)
+res_mse, res_mae = model.evaluate(features_test_scaled, labels_test, verbose=0)
 print(f"Final loss (RMSE): {res_mse}")
 print(f"Final metric (MAE): {res_mae}")
