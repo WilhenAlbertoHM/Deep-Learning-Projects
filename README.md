@@ -13,6 +13,7 @@ A collection of Deep Learning projects made with TensorFlow, from `Build Deep Le
 ## Requirements
 * Python
 * scikit-learn
+* TensorFlow
 * NumPy
 * Pandas
 * Matplotlib
